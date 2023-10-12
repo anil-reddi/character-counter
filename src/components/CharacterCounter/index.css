@@ -1,0 +1,86 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.character-count-card-container {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count-card-container {
+  background-color: #ffbf1f;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.count-heading {
+  color: #272c47;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin: 50px 25px;
+}
+.character-list {
+  background-color: #ffc533;
+  height: 75%;
+  width: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.no-count-img {
+  width: 75%;
+  height: 85%;
+}
+.input-card-container {
+  background-color: #0f172a;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.input-heading {
+  color: #ffbf1f;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.input-card {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 10px;
+}
+.input {
+  width: 80%;
+  height: 35px;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: #0f172a;
+}
+.add-btn {
+  background-color: #ffbf1f;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 500;
+  height: 35px;
+  width: 10%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.item {
+  list-style-type: none;
+}
+.character-count {
+  color: #272c47;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
